@@ -1,0 +1,127 @@
+:root {
+  --first-color: #f8fcfb;
+  --second-color: #c9fdd7;
+  --third-color: #79d1c3;
+  --fourth-color: #6892d5;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  background-color: var(--second-color);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 4rem 3rem 4rem;
+}
+
+header h1 {
+  font-family: 'Arial', sans-serif;
+  font-size: 32px;
+  color: black;
+}
+
+header h1:hover {
+  cursor: pointer;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav li {
+  margin-right: 20px;
+}
+
+header nav li a {
+  text-decoration: none;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+header nav li a:hover {
+  color: var(--fourth-color);
+}
+
+body {
+  /* background-image: radial-gradient(at center center, rgba(0,15,43,0.89) 0%, rgba(0,15,43,0.97) 97%); */
+  color: #FFFFFF;
+}
+
+.landing-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.landing-page p {
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.6rem;
+}
+
+.landing-page h2 {
+  font-size: 5rem;
+}
+
+.landing-page img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.landing-page figure {
+  width: 300px;
+  padding-top: 2rem;
+}
+
+.landing-page a {
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 24px;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.landing-page a:hover {
+  background-color: #FFFFFF;
+  color: #6892d5;
+}
+
+footer {
+  background-color: #6892d5;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}

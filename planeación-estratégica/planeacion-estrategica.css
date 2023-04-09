@@ -1,0 +1,147 @@
+:root {
+  --first-color: #f8fcfb;
+	--second-color: #c9fdd7;
+  --third-color: #79d1c3;
+  --fourth-color: #6892d5;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mision-container {
+  padding-top: 3rem;
+  color: black;
+}
+
+.mision-container .separator .separating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5rem;
+}
+
+.separator span {
+  line-height: 1.7rem;
+}
+
+.mision-container .separator .separating div {
+  width: 50%
+}
+
+.mision-container .separator .separating div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+span {
+  font-size: 1.1;
+}
+
+.mision-container .separator .separating div h2{
+  text-align: center;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.mision-container .separator .separating figure img {
+  width: 600px;
+  transform: .3s ease in out
+}
+
+.separating {
+  padding-bottom: 4rem;
+}
+
+.values-goals-container {
+  height: 600px;
+}
+
+.values-goals-container .separator {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.values-goals-container .separator .values-container {
+  background-color: black;
+  padding-top: 5%;
+  height: inherit;
+  color: white;
+  width: 50%;
+}
+
+.values-goals-container .separator .values-container h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.values-goals-container .separator .goals-container h2 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.values-goals-container .separator .goals-container {
+  background-color: var(--third-color);
+  padding-top: 5%;
+  height: inherit;
+  width: 50%;
+  color: black;
+}
+
+.values-goals-container .separator .values-container div {
+  padding-top: 2rem;
+  text-align: justify;
+  margin: 2rem;
+}
+
+.values-goals-container .separator .goals-container div {
+  padding-top: 2rem;
+  text-align: justify;
+  margin: 2rem;
+}
+
+#proccess-map {
+  transition-duration: 2s;
+  cursor: pointer;
+  width: 600px;
+}
+
+.animation {
+  transition-duration: 1s;
+  transform: translate(-50%, -50%) scale(1.6);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+
+.strategies-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--second-color);
+  color: black;
+}
+
+.strategies-container img:hover {
+  cursor: pointer;
+}
+
+.dofa img {
+  width: 600px;
+}
+
+footer {
+  background-color: #6892d5;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
