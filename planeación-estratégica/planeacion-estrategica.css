@@ -128,6 +128,10 @@ span {
   cursor: pointer;
 }
 
+.strategies img {
+  width: 800px;
+}
+
 .dofa img {
   width: 600px;
 }
